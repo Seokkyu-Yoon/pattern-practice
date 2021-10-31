@@ -1,0 +1,22 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "strategy": "node ./strategy-pattern",
+    "singleton": "node ./singleton-pattern",
+    "state": "node ./state-pattern",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seokkyu-Yoon",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
+  }
+}
